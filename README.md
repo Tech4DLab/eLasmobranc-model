@@ -25,13 +25,37 @@ A dedicated dataset was constructed to frame the problem as a binary classificat
 
 The detection model is based on a convolutional neural network with a pretrained EfficientNet-B0 backbone using transfer learning. Fine-tuning is applied to adapt the learned representations to the target domain by retraining the two final network blocks and replacing the output layer with one specifically designed for the problem. The proposed detection model achieves near-perfect performance on the test set, demonstrating its effectiveness for binary elasmobranch recognition. 
 
-<p align="center">
+<div align="center">
   <img src="images/model1.png" width="800">
-  <img src="images/mc_model1.png" width="800">
-</p>
+</div>
 
-| Accuracy | Precision | Recall | F1-score |
-|----------|-----------|--------|----------|
-| 0.998    | 0.998     | 1.000  | 0.999    |
+<table align="center">
+<tr>
 
+<td align="center">
+<img src="images/mc_model1.png" width="200"><br>
+<b>🧩 Confusion Matrix</b>
+</td>
 
+<td align="center">
+<b>📊 Classification Performance</b><br><br>
+
+<table>
+<tr>
+<th>Accuracy</th>
+<th>Precision</th>
+<th>Recall</th>
+<th>F1-score</th>
+</tr>
+<tr>
+<td>0.998</td>
+<td>0.998</td>
+<td>1.000</td>
+<td>0.999</td>
+</tr>
+</table>
+
+</td>
+
+</tr>
+</table>
