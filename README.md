@@ -85,3 +85,29 @@ The binary detection model achieves near-perfect performance on the test set, de
 
 </tr>
 </table>
+
+
+### 2️⃣ Hierarchical taxonomic classification model
+
+The final model is evaluated on the complete image set, since the proposed zero-shot informed approach does not rely on adaptive training that could induce overfitting. Performance is analyzed across multiple taxonomic levels, showing strong results at higher hierarchical stages (up to family level). Although species-level classification presents increased difficulty due to fine-grained similarity, the model remains competitive, confirming the effectiveness of integrating domain knowledge through expert prompts and schematic prototypes.
+
+| Level   | Accuracy | Balanced Accuracy | Precision | Recall | F1-score |
+|---------|----------|-------------------|-----------|--------|----------|
+| Animal | 0.99 | 0.99 | 0.99 | 0.99 | 0.99 |
+| Order  | 0.95 | 0.92 | 0.96 | 0.95 | 0.95 |
+| Family | 0.91 | 0.92 | 0.93 | 0.92 | 0.92 |
+| Species| 0.67 | 0.76 | 0.83 | 0.67 | 0.72 |
+
+<td align="center">
+<b>🧩 Confusion Matrix</b>
+<img src="images/mc_model2.1.png" width="300">
+<img src="images/mc_model2.2.png" width="300">
+<img src="images/mc_model2.3.png" width="300">
+<img src="images/mc_model2.4.png" width="300">
+</td>
+
+## 🤝 Acknowledgments
+
+This research was funded by the eLasmobranc project, which is developed with the collaboration of the Biodiversity Foundation of the Ministry for Ecological Transition and the Demographic Challenge, through the Pleamar Programme, and is co-financed by the European Union through the European Maritime, Fisheries and Aquaculture Fund.
+
+
