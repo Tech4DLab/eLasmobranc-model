@@ -29,6 +29,27 @@ The detection model is based on a convolutional neural network with a pretrained
   <img src="images/model1.png" width="800">
 </div>
 
+
+## Hierarchical taxonomic classification model
+
+The taxonomic classification model addresses a seven-species multiclass problem using exclusively the eLasmobranc Dataset. This task is challenged by limited samples per class and high morphological and semantic similarity between related species, motivating a zero-shot informed approach based on CLIP. Prior knowledge is incorporated to enhance visual embeddings (by emphasizing discriminative traits), textual embeddings (by semantically defining species) and the classification process itself, improving fine-grained recognition under data-scarce conditions. The model is structured around three main components:
+
+- Prompt extraction and validation: expert descriptions and automatically generated variants are filtered by measuring similarity against visual prototypes derived from schematic illustrations.
+<div align="center">
+  <img src="images/model1.png" width="800">
+</div>
+
+- Prototype-guided attention: schematic illustrations guide CLIP’s visual encoder to focus on distinctive and shared morphological features across taxonomic levels.
+<div align="center">
+  <img src="images/model1.png" width="800">
+</div>
+
+- Taxonomy-aware classification: predictions are obtained by aligning image embeddings with text prompts and visual prototypes, enabling hierarchical zero-shot species identification.
+  <div align="center">
+  <img src="images/model1.png" width="800">
+</div>
+
+
 <table align="center">
 <tr>
 
