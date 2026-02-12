@@ -49,12 +49,17 @@ The taxonomic classification model addresses a seven-species multiclass problem 
   <img src="images/model4.png" width="300">
 </div>
 
+## Classification Performance
+
+### 1️⃣ Elasmobranch Detection Model (Binary Classification)
+
+The binary detection model achieves near-perfect performance on the test set, demonstrating its robustness in distinguishing elasmobranchs from non-target objects under real-world variability. These strong results are critical, as this model serves as the entry point of the pipeline and directly conditions the performance of the subsequent taxonomic classification stage.
 
 <table align="center">
 <tr>
 
 <td align="center">
-<img src="images/mc_model1.png" width="200"><br>
+<img src="images/mc_model1.png" width="300"><br>
 <b>🧩 Confusion Matrix</b>
 </td>
 
