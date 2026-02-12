@@ -90,21 +90,63 @@ The binary detection model achieves near-perfect performance on the test set, de
 ### 2️⃣ Hierarchical taxonomic classification model
 
 The final model is evaluated on the complete image set, since the proposed zero-shot informed approach does not rely on adaptive training that could induce overfitting. Performance is analyzed across multiple taxonomic levels, showing strong results at higher hierarchical stages (up to family level). Although species-level classification presents increased difficulty due to fine-grained similarity, the model remains competitive, confirming the effectiveness of integrating domain knowledge through expert prompts and schematic prototypes.
+<table align="center">
+<tr>
+<th>Level</th>
+<th>Accuracy</th>
+<th>Balanced Accuracy</th>
+<th>Precision</th>
+<th>Recall</th>
+<th>F1-score</th>
+</tr>
 
-| Level   | Accuracy | Balanced Accuracy | Precision | Recall | F1-score |
-|---------|----------|-------------------|-----------|--------|----------|
-| Animal | 0.99 | 0.99 | 0.99 | 0.99 | 0.99 |
-| Order  | 0.95 | 0.92 | 0.96 | 0.95 | 0.95 |
-| Family | 0.91 | 0.92 | 0.93 | 0.92 | 0.92 |
-| Species| 0.67 | 0.76 | 0.83 | 0.67 | 0.72 |
+<tr>
+<td align="center">Animal</td>
+<td align="center">0.99</td>
+<td align="center">0.99</td>
+<td align="center">0.99</td>
+<td align="center">0.99</td>
+<td align="center">0.99</td>
+</tr>
 
-<td align="center">
-<b>🧩 Confusion Matrix</b>
-<img src="images/mc_model2.1.png" width="300">
-<img src="images/mc_model2.2.png" width="300">
-<img src="images/mc_model2.3.png" width="300">
-<img src="images/mc_model2.4.png" width="300">
-</td>
+<tr>
+<td align="center">Order</td>
+<td align="center">0.95</td>
+<td align="center">0.92</td>
+<td align="center">0.96</td>
+<td align="center">0.95</td>
+<td align="center">0.95</td>
+</tr>
+
+<tr>
+<td align="center">Family</td>
+<td align="center">0.91</td>
+<td align="center">0.92</td>
+<td align="center">0.93</td>
+<td align="center">0.92</td>
+<td align="center">0.92</td>
+</tr>
+
+<tr>
+<td align="center">Species</td>
+<td align="center">0.67</td>
+<td align="center">0.76</td>
+<td align="center">0.83</td>
+<td align="center">0.67</td>
+<td align="center">0.72</td>
+</tr>
+
+</table>
+
+<p align="center">
+<b>🧩 Confusion Matrix</b><br><br>
+
+<img src="images/mc_model2.1.png" width="250">
+<img src="images/mc_model2.2.png" width="250">
+<img src="images/mc_model2.3.png" width="250">
+<img src="images/mc_model2.4.png" width="250">
+
+</p>
 
 ## 🤝 Acknowledgments
 
