@@ -36,17 +36,17 @@ The taxonomic classification model addresses a seven-species multiclass problem 
 
 - Prompt extraction and validation: expert descriptions and automatically generated variants are filtered by measuring similarity against visual prototypes derived from schematic illustrations.
 <div align="center">
-  <img src="images/model2.png" width="800">
+  <img src="images/model3.png" width="800">
 </div>
 
 - Prototype-guided attention: schematic illustrations guide CLIP’s visual encoder to focus on distinctive and shared morphological features across taxonomic levels.
 <div align="center">
-  <img src="images/model1.png" width="800">
+  <img src="images/model2.png" width="800">
 </div>
 
 - Taxonomy-aware classification: predictions are obtained by aligning image embeddings with text prompts and visual prototypes, enabling hierarchical zero-shot species identification.
   <div align="center">
-  <img src="images/model3.png" width="800">
+  <img src="images/model4.png" width="800">
 </div>
 
 
