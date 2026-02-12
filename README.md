@@ -141,10 +141,10 @@ The final model is evaluated on the complete image set, since the proposed zero-
 <p align="center">
 <b>🧩 Confusion Matrix</b><br><br>
 
-<img src="images/mc_model2.1.png" width="250">
-<img src="images/mc_model2.2.png" width="250">
-<img src="images/mc_model2.3.png" width="250">
-<img src="images/mc_model2.4.png" width="250">
+<img src="images/mc_model2.1.png" width="300">
+<img src="images/mc_model2.2.png" width="300">
+<img src="images/mc_model2.3.png" width="300">
+<img src="images/mc_model2.4.png" width="300">
 
 </p>
 
