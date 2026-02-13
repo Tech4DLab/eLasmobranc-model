@@ -3,7 +3,7 @@
 First of all, an example execution hosted on Google Colab is presented, illustrating a practical reference for reproducing the results in an interactive cloud-based environment:
 
 <p>
-  <a href="https://zenodo.org/records/18549737">
+  <a href="https://colab.research.google.com/drive/1Zk70bioeRSLVOrlhLAvO15DNDZZjYbKx?usp=sharing">
     <img src="https://img.shields.io/badge/💻 Google Colab-007BFF?style=for-the-badge&logoColor=white" />
   </a>
 </p>
